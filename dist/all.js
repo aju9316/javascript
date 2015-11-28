@@ -1,0 +1,3 @@
+var app=angular.module("app",["ui.router"]);app.config(function(l,o){l.state("home",{url:"/home",templateUrl:"views/home.html",controller:"HomeController"}).state("login",{url:"/login",templateUrl:"views/login.html",controller:"LoginController"})});
+var app=angular.module("app");app.controller("HomeController",["$scope",function(o){}]);
+var app=angular.module("app");app.controller("LoginController",["$scope",function(o){}]);
