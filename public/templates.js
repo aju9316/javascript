@@ -1,2 +1,0 @@
-angular.module("app").run(["$templateCache", function($templateCache) {$templateCache.put("views/home.html","<h1>this is home of {{ name }}</h1>");
-$templateCache.put("views/login.html","<h1>this is login</h1>");}]);
