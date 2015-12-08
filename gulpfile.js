@@ -26,7 +26,7 @@ gulp.task('cache', function () {
 
 gulp.task('server', function () {
 	connect.server({
-		port: 80
+		port: 4000
 	});
 });
 
