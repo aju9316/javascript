@@ -32,4 +32,4 @@ gulp.task('server', function () {
 
 gulp.task('default', ['cache', 'server']);
 
-gulp.watch('views/*.html', ['cache']);
+gulp.watch('views/*.html', ['cache'])
