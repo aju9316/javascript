@@ -32,5 +32,5 @@ gulp.task('server', function () {
 
 gulp.task('default', ['cache', 'server']);
 
-/* commentss */
+/* comments */
 gulp.watch('views/*.html', ['cache'])
